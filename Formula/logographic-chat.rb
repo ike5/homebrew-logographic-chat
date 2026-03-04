@@ -3,17 +3,17 @@
 class LogographicChat < Formula
   desc "TUI chat client for Logographic Chat"
   homepage "https://github.com/ike5/logographic-chat"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
-    url "https://github.com/ike5/logographic-chat/releases/download/v0.1.4/logographic-chat-darwin-arm64.tar.gz"
-    sha256 "d91a20981ff2db4c0c2f38d746209505ee50d3dc7a5908ccb0374c4793ba6113"
+    url "https://github.com/ike5/logographic-chat/releases/download/v0.1.5/logographic-chat-darwin-arm64.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   on_linux do
-    url "https://github.com/ike5/logographic-chat/releases/download/v0.1.4/logographic-chat-linux-x86_64.tar.gz"
-    sha256 "7af52a9f8d17c356dd45525b865a028f8b40b65e656ad68207dcf4b4d5f8a9a4"
+    url "https://github.com/ike5/logographic-chat/releases/download/v0.1.5/logographic-chat-linux-x86_64.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   def install
